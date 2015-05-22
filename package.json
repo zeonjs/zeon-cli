@@ -1,0 +1,22 @@
+{
+  "name": "zeon-cli",
+  "version": "0.0.0",
+  "description": "zeon-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeonjs/zeon-cli.git"
+  },
+  "keywords": [
+    "zeon"
+  ],
+  "author": "Zhen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeonjs/zeon-cli/issues"
+  },
+  "homepage": "https://github.com/zeonjs/zeon-cli#readme"
+}
