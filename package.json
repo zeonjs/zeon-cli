@@ -2,7 +2,11 @@
   "name": "zeon-cli",
   "version": "0.0.0",
   "description": "zeon-cli",
-  "main": "index.js",
+  "main": "lib/index",
+  "bin": {
+    "zeon": "./bin/zeon"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/zeonjs/zeon-cli/issues"
   },
-  "homepage": "https://github.com/zeonjs/zeon-cli#readme"
+  "homepage": "https://github.com/zeonjs/zeon-cli#readme",
+  "dependencies": {
+    "chalk": "^1.0.0"
+  }
 }
