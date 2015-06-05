@@ -1,0 +1,15 @@
+# path
+path:
+  static: /static
+  module: /module
+
+# proxy option
+proxy:
+  enable:false
+  option:
+    - origin: /foo/bar/1
+      target: http://foo/bar/1
+      method: all
+    - origin: /foo/bar/1
+      target: http://foo/bar/1
+      method: post
