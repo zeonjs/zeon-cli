@@ -1,7 +1,17 @@
+# server
+server:
+  port: 8080
+
 # path
 path:
   static: /static
   module: /module
+  css: /static/css
+
+# engine
+engine:
+  # can be css | sass | compass | less | stylus
+  css: css
 
 # proxy option
 proxy:
