@@ -2,8 +2,9 @@
 server:
   port: 8080
 
-# path
-path:
+# dir
+dir:
+  # static file dir
   static: /static
   module: /module
   css: /static/css
