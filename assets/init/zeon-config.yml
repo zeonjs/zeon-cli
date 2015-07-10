@@ -5,6 +5,9 @@ server:
 # dir
 dir:
   # static file dir
+  # t1: path string
+  # t2: path array
+  # t3: path object, [KEY] - url, [VALUE] - file path
   static: /static
   module: /module
   css: /static/css
