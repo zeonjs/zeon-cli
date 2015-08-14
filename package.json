@@ -30,6 +30,7 @@
     "lodash": "^3.10.0",
     "minimist": "^1.1.1",
     "yamljs": "^0.2.3",
+    "zeon-front-matter": "0.0.1",
     "zeon-server": "*"
   }
 }
