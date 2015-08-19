@@ -1,6 +1,6 @@
 {
   "name": "zeon-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "zeon-cli",
   "main": "lib/index",
   "bin": {
@@ -30,7 +30,7 @@
     "lodash": "^3.10.0",
     "minimist": "^1.1.1",
     "yamljs": "^0.2.3",
-    "zeon-front-matter": "*",
-    "zeon-server": "*"
+    "zeon-front-matter": "latest",
+    "zeon-server": "latest"
   }
 }
